@@ -59,7 +59,7 @@ a:hover:after {
   position: relative;
 }
 
-.nav-list {
+.nav__list {
   margin: 0 auto;
   list-style-type: none;
   padding: 0;
@@ -71,17 +71,17 @@ a:hover:after {
   justify-content: space-between;
 }
 
-.nav-item {
+.nav__item {
   box-sizing: border-box;
   max-width: 100%;  
   min-width: 0;
 }
 
-.nav-margin {
+.nav_margin-left_10 {
   margin-left: 10px;
 }
 
-.nav-link {
+.nav__link {
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -96,16 +96,17 @@ a:hover:after {
   position: relative;
   width: 100%;
   text-align: center;
-  padding: 10em 0 0;
+  padding: 4em 0 0 0;
   align-items: center;
   justify-content: center;
+  font-size: 40pt;
 }
 
 .section {
   position: relative;
   width: 100%;
-  text-align: center;
-  padding: 30px 0 0;
+  text-align: left;
+  padding: 4em 0 0;
   align-items: center;
   justify-content: center;
 }
